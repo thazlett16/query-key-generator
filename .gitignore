@@ -1,0 +1,25 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files
+
+# System
+.DS_Store
+*.local
+*.log*
+
+# Dependencies
+node_modules/
+
+# Local env files
+.env*
+!.env.example
+
+# Build Outputs
+dist/
+
+# Debug
+pnpm-debug.log*
+npm-debug.log*
+
+# Extra Folders
+.vscode/*
+!.vscode/extensions.json
+.idea/
