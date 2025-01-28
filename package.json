@@ -1,0 +1,30 @@
+{
+  "name": "@thazstack/query-key-factory-util",
+  "version": "1.0.0",
+  "description": "A utility factory to create query keys for @tanstack/query",
+  "license": "MIT",
+  "author": {
+    "name": "Tim Hazlett",
+    "email": "timhazlett2016@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thazlett16/query-key-generator.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest",
+    "test:ui": "vitest --ui"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.1",
+    "@vitest/coverage-istanbul": "3.0.0-beta.1",
+    "@vitest/ui": "3.0.0-beta.1",
+    "jsdom": "^25.0.1",
+    "prettier": "^3.4.2",
+    "type-fest": "^4.30.0",
+    "typescript": "^5.7.2",
+    "vite": "^6.0.3",
+    "vitest": "3.0.0-beta.1"
+  }
+}
